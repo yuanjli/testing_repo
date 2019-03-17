@@ -1,1 +1,1 @@
-Git username and email
+checking Git username and email
