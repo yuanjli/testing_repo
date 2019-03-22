@@ -1,1 +1,4 @@
 checking Git username and email
+
+
+Made some changes in the setting to test from a different workstation. 
