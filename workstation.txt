@@ -2,3 +2,5 @@ checking Git username and email
 
 
 Made some changes in the setting to test from a different workstation. 
+
+Just updated and added new key, checking for connections.
