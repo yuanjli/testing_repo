@@ -6,7 +6,6 @@ without repeating characters.
 input: " "
 expected output: 1 
 
-
 input: "dvdf"
 expected output: 3
 
