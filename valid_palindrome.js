@@ -15,28 +15,24 @@ Output: false
 
 */
 
-var isPalindrome = function(s) {
-    var news = s.replace(/[^a-z0-9]/gi,'');
-    news = news.toLowerCase();
+var isPalindrome = function (s) {
+    var news = s.replace(/[^a-z0-9]/gi, '').toLowerCase();
     console.log(news);
     var len = news.length;
-    if (len%2 === 1){
-        var left = Math.floor(len/2) -1;
-        var right = Math.ceil(len/2);
-    } else {
-        var left = len/2 -1;
-        var right = len/2;
-    }
-    while (left >=0) {
+
+    var left = Math.floor(len / 2) - 1;
+    var right = Math.ceil(len / 2);
+    console.log(left, right);
+    while (left >= 0) {
         if (news[left] != news[right]) {
             return false;
         }
-        left --;
-        right ++;
+        left--;
+        right++;
     }
     return true;
 };
 
-var mystr ="A man, a plan, a canal: Panama";
+var mystr = "aa";
 console.log(isPalindrome(mystr));
 
